@@ -1292,7 +1292,7 @@ public class Main {
         params.put("sign", sign);
 
 /** http request */
-        String resultJson = get("https://openapi.oex.com/exchange-open-api/open/api/get_trades?symbol=btcusdt", params);
+        String resultJson = get("https://openapi.oex.com/open/api/get_trades?symbol=btcusdt", params);
         System.out.println(resultJson);
     }
 
